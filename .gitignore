@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment (secrets) — keep .env.example as the template
+.env
+.env.local
+.env.*.local
+
+# Local tooling
+.claude/
+
+# OS / editor
+.DS_Store
+*.log
